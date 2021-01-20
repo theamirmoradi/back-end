@@ -23,4 +23,7 @@ public class User extends BaseEntity {
     @JoinColumn(name = "user_id")
     @OneToMany
     private List<Tweet> tweets;
+
+    @OneToOne
+    private UserProfile userProfile;
 }
