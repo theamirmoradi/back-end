@@ -29,4 +29,7 @@ public class UserProfile extends BaseEntity {
 
     @Column
     private String phone;
+
+    @Column
+    private long userId;
 }
